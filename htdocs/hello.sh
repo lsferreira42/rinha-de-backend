@@ -1,7 +1,7 @@
 #!/bin/bash
+source /usr/local/apache2/htdocs/lib/shared.sh
 
-echo "Content-type: text/html"
-echo ""
+print_header
 
 
 echo """<html>
