@@ -1,4 +1,5 @@
 #!/bin/bash
+# Shared Libs!
 
 DATABASE_PATH="/usr/local/apache2/db/rinha.db"
 
@@ -10,7 +11,7 @@ print_header() {
     else
         echo "Status: 200 OK"
     fi
-    echo "Content-type: text/html"
+    echo "Content-type: application/json"
     echo ""
 }
 
