@@ -4,7 +4,7 @@ services:
     hostname: api02
     cap_add:
       - SYS_PTRACE
-    build: .
+    image: lsferreira42/rinhadebackend:latest
     ports:
       - "3001:3000"
     volumes:
